@@ -1,0 +1,208 @@
+.navbar-logo {
+    height: 40px; /* Adjust the height as needed */
+    padding: 5px;
+    margin-left: 10%;
+  }
+  .navbar-toggler {
+    z-index: 999;
+  }
+
+.navbar-nav {
+    margin-left: auto;
+  }
+  .nav-link {
+    padding: 15px;
+}
+.navbar-style {
+            background-color: white;
+            width: 100%;
+            position: fixed;
+            z-index:9999;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.footer {
+    background-color: black;
+    width: 100%;
+    color: white;
+    bottom: 0;
+}
+
+.footer-logo {
+    height: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.footer-style {
+   padding: 40px 40px 40px 0px ;
+
+}
+.brand-style {
+    display: inline;
+    padding: 4px;
+    color: #bbbbbb;
+}
+.footer-text-style {
+    color: #bbbbbb;
+}
+.brand-style:hover {
+    display: inline;
+    color: white;
+    margin-bottom:8px !important;
+    cursor:pointer;
+}
+.footer-text-style:hover {
+    color: white;
+    padding-bottom:4px !important;
+    cursor:pointer;
+}
+.sub-head {
+    color: green; 
+    font-weight: 650;
+    font-size:20px !important;
+}
+
+.marquee-image {
+    /* height: 80px; */
+    padding: 0px 30px;
+    margin-bottom: -10px;
+    width: 190px;
+
+}
+.signin {
+    background-color: #eaedef;
+    color: #000;
+    outline: none !important;
+    border: none !important;
+    border-radius:4px;
+    margin: 10px 10px 10px 0px;
+    padding: 8px 20px;
+}
+
+.signup {
+    background-color:#0e387a;
+    color: white;
+    outline: none !important;
+    border: none !important;
+    border-radius:4px;
+    margin: 10px 10px 10px 0px;
+    padding: 8px 20px;
+}
+
+.title {
+    color: green;
+    font-weight: 650;
+}
+
+.banner-content {
+    margin-top: 170px;
+}
+
+.signup-formstyle {
+    margin-top: 80px; 
+}
+
+.signup-title::before, .signup-title::after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: #c2c8d0;
+    display: block;
+    }
+
+.signup-title {
+    display: grid;
+    grid-template-columns: 1fr 20px 1fr;
+    align-items: center;
+    column-gap: 10px;
+    margin: 25px 15px;
+    font-weight: 400;
+   }
+
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Set text color */
+    text-align: center;
+  }
+
+  .otp-button {
+    background-color: #0e387a;
+    color: white;
+    border-radius: 4px;
+  }
+
+  .button-google {
+    border-radius: 4px;
+    border: 1px solid grey;
+  }
+  .img-fluid {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.header-text {
+    color:#0e387a;
+}
+.para-text {
+    color:#0e387a;
+}
+
+
+@media (max-width: 576px) {
+    /* Phones */
+    .header-text {
+        font-size: 14px !important;
+    }
+    .banner-container {
+        margin-top:125px !important;
+        position: relative;
+      }
+    .sub-head { 
+        font-size: 10px !important;
+    }
+    .para-text {
+        color: #0e387a;
+        font-size: 10px !important;
+    }
+
+  }
+
+  .slider-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider-content {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+.slider-header {
+    font-size:20px;
+}
+.overlay {
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
